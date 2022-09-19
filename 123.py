@@ -122,7 +122,7 @@ def main_apv():
 
 
     def main_system():
-    try:
+    
         token=open('token.txt','r').read()
     except:
         pass
@@ -132,7 +132,7 @@ def main_apv():
         m=q['name']
         print ''
     except requests.exceptions.ConnectionError:
-        print logo
+        print (logo)
         print ''
         print "Trun On Data An Then \t"
         print("")
@@ -140,7 +140,7 @@ def main_apv():
         print ('\x1b[0;37mToken on Chekpiont ')
         os.system('rm -rf token.txt')
     os.system('clear')
-    print logo
+    print (logo)
     print ""
     print 39*'~'
     print "\x1b[0;37m[1]   Public Cloning      \x1b[0;37m(Login)"
