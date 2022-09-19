@@ -65,7 +65,7 @@ cps=[]
 def main_apv():
     imt="+BH-TEAM=="
     os.system('clear')
-    print logo
+    print (logo)
     try:
         key1=open("/sdcard/.android.txt",'r').read()
     except IOError:
