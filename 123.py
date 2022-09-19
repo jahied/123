@@ -70,7 +70,7 @@ def main_apv():
         key1=open("/sdcard/.android.txt",'r').read()
     except IOError:
         os.system("clear")
-        print logo
+        print (logo)
         print ("           You dont have subscrption")
         print("           Hello Dear Ya Cammonds Paid Or")
         print ("           You  Subscription Now Please") 
