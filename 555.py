@@ -129,7 +129,7 @@ def clear():
 def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
-
+import os
    os.system('clear')
 
 print
